@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@1,300&display=swap');
+*{
+    margin:0 auto;
+}
+
+nav{
+    display: flex;
+    font-size: 1.7em;
+    background-color: #750185;
+    width: 100%;
+}
+
+main{
+    display: block;
+}
+.nav{
+    margin-left: 20px;
+    font-family: 'Athiti', sans-serif;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.destaque1{
+    color:#750185;
+    font-size: 3.5em;
+    margin-left: 10px;
+}
+
+.texto-sobremim{
+    font-size: 1.3em;
+    font-family: 'Athiti', sans-serif;
+    position: absolute;
+    left:60px;
+    margin-top:50px;
+    
+}
+
+.imagem-perfil{
+    border-radius: 50%;
+    width: 300px;
+    position: absolute;
+    left: 1080px;
+    margin-top: 30px;
+    
+}
+
+.title-formacao{
+    color:#750185;
+    font-size: 3.5em;
+    font-family: 'Athiti', sans-serif;
+    margin-left: 75px;
+}
+
+.formacao{
+    position: absolute;
+    top: 500px;
+    font-family: 'Athiti', sans-serif;
+    width: 100%;
+    background-color: black;
+    display: block;
+}
+
+.list-formacao{
+    font-size: 2em;
+    font-family: 'Athiti', sans-serif;
+    list-style: none;
+    color:white;
+    margin-left: 80px;
+}
+
+.habilidades{
+    position: absolute;
+    top: 1050px;
+    color: aqua;
+}
+
+.title-habilidades{
+    color:#750185;
+    font-size: 3.5em;
+    font-family: 'Athiti', sans-serif;
+    margin-left: 75px;
+}
+
+.all{
+    display: flex;
+  }
+
+.circle-wrap {
+    display: grid;
+    grid-template-columns: repeat(1, 160px);
+    grid-gap: 80px;
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 150px;
+    height: 150px;
+    background:#750185;
+    border-radius: 50%;
+  }
+
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 30 px 60 px rgba(0,0,0,.2)
+
+}
+
+.box .percent{
+    position: relative;
+    width: 150px;
+    height:150px ;
+}
+
+.box .percent svg{
+   position: relative;
+   width: 150px;
+   height: 150px; 
+}
+.box .percent svg circle{
+    width: 150px;
+   height: 150px; 
+   fill: none;
+   stroke-width: 10;
+   transform:translate(5px,5px) ;
+   stroke-dasharray: 440;
+   stroke-dashoffset: 440;
+}
+.box .percent svg circle:nth-child(1)
+{
+    stroke-dashoffset:0;
+    stroke: #750185;
+}
+.box .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 -(440*67) / 100);
+    stroke: #750185;
+}
+
+
+.box .percent .number{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#750185;
+}
+
+.box .percent .number h2{
+    font-size: 48px;
+}
+
+.box .percent .number h2 span{
+    font-size: 24px;
+}
+
+.box .text{
+    padding: 10px 0 0;
+    color: #750185;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#php{
+    position: absolute;
+    left: 580px;
+    top: 98px;
+}
+
+#MySql{
+    position: absolute;
+    left: 300px;
+    top: 98px;
+}
+
+footer{
+    background-color: #750185;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    top: 1560px;
+}
+
+.contatos{
+    background-color: black;
+    position: relative;
+    top: 1500px;
+    height: 400px
+}
+
+.title-contatos{
+    color:#750185;
+    font-size: 3.5em;
+    font-family: 'Athiti', sans-serif;
+    margin-left: 75px;
+}
+
+#imagem-email{
+    position: relative;
+    left: 100px;
+}
+
+.info-email{
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.imagem-git{
+    position:relative ;
+    left: 60px;
+}
+
+.info-git{
+    color: white;
+    font-size: 1.2em;
+    position: relative;
+    margin-left: 160px;
+    margin-top: -40px;
+}
+
+#teste{
+    color: #750185;
+}
+
+nav{
+    font-family: 'Athiti', sans-serif;
+}
